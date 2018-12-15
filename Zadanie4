@@ -1,0 +1,7 @@
+n = int(input("Podaj liczbę naturalną:"))
+x = float(input("Podaj licznę rzeczywistą:"))
+print("Wartość danego wyrażenia to:")
+suma = 0
+for k in range (1,n+1):
+    suma = suma + (x**k)/k
+print(suma)
