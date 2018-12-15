@@ -1,0 +1,7 @@
+print("Program do obliczania kapitalu koncowego")
+K = float(input("Podaj kapital poczatkowy:"))
+k = float(input("Podaj ilosc kapitalizacji:"))
+p = float(input("Podaj wartosc oprocentowania:"))
+n = float(input("Podaj okres depozytu w latach:"))
+kapital_koncowy = K*(1+(p/100*k)**n*k)
+print("Kapitał końcowy wynosi:", kapital_koncowy)
